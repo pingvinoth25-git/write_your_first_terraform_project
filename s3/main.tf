@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-terraform-demo-bucket-12345"   # must be globally unique
+  bucket = "my-terraform-demo-bucket-12345-vinoth932025"   # must be globally unique
 
   tags = {
     Name        = "MyTerraformS3Bucket"
